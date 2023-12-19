@@ -27,7 +27,6 @@ const App = (props) => {
                     qrCodeSuccessCallback={onNewScanResult}
                 />
                 <ResultContainerPlugin results={decodedResults} />
-                <HowToUse />
             </section>
         </div>
     );
